@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//IMPORTACIONES
+@import "./utilidades/variables";
+@import "./utilidades/hovers";
+
+body{
+    background-color: $bottonBlack;
+
+    .card{
+        background-color: $bottonBlack;
+
+    }
+
+    .caja{
+        padding: 0;
+
+        .tituloMenu{
+            font-size: 35px;
+        }
+    }
+
+    .item1, 
+    .item2, 
+    .item3, 
+    .item4{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+
+        .textoCard{
+            color: $textsWhite;
+        }
+    
+        .tituloCard{
+            color: $textsWhite;
+        }
+    }
+}
+
+.navItem{
+    vertical-align: inherit;
+
+        .letra{
+            color: $textsWhite;
+        }
+    
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+}
+
+    .animate__heartBeat{
+        animation-duration: 3s;
+    }
+
+    .pagination{
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
